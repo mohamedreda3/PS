@@ -1,0 +1,15 @@
+#headingOne {
+    width: fit-content;
+    color: var(--main-color-two);
+}
+
+#headingOne:before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    background: var(--main-color-one);
+    border-radius: 7px;
+    bottom: -4px;
+    left: 0;
+}

@@ -1,0 +1,136 @@
+.blog_post:hover:before {
+    width: 100%;
+}
+
+.blog_post:before {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    width: 0;
+    background: var(--main-color-one);
+    height: 6px;
+    left: 0;
+    border-radius: 6px;
+    transition: var(--transition);
+}
+
+.blog_post p {
+    text-align: left !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.b_bot svg {
+    font-size: 22px;
+}
+
+.b_bot {
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.blog_post:hover .b_bot .sliding_b span {
+    translate: 0;
+}
+
+.sliding_b span {
+    translate: 110% 0;
+    display: block;
+    transition: var(--transition);
+    color: var(--main-color-one);
+}
+
+.sliding_b {
+    width: fit-content;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.blog_posts {
+    display: flex;
+    gap: 26px;
+    margin-top: 35px;
+    border-radius: 5px;
+}
+
+.blog_post img {
+    width: 79%;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.blog_post p {
+    font-size: 14px;
+}
+
+.blog_post h3 {
+    font-size: 20px;
+}
+
+.blog_post {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: min(350px, 100%);
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, .1);
+    padding: 17px;
+    border-radius: 5px;
+    min-height: 477px;
+    min-width: 345px;
+    z-index: 29;
+    background-color: white;
+}
+
+#blog {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#blog>button {
+    min-width: 169px;
+    margin: 20px auto;
+    margin-top: 40px;
+    padding: 10px 19px;
+    background-color: white;
+    z-index: 1;
+    border-radius: 0;
+    background: none;
+    color: var(--main-color-one);
+    font-size: 20px;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+#blog>button span {
+    z-index: 100;
+}
+
+#blog>button:before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    height: 0;
+    background-color: var(--main-color-one);
+    top: 0;
+    transition: var(--transition);
+}
+
+#blog>button:hover {
+    color: white;
+}
+
+#blog>button:hover:before {
+    height: 100%;
+}
+
+.blog_posts>div {
+    transition: var(--transition);
+}

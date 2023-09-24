@@ -1,0 +1,63 @@
+.banner {
+    width: 100%;
+    min-height: 120vh;
+    background: url("https://cutewallpaper.org/21/white-background-gif/Tag-For-White-Background-File-Hart-S-Inversor-On-White-.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+
+.content_banner {
+    width: min(980px, 100%);
+}
+
+.content_banner .banner_text {
+    width: 100%;
+    text-align: center;
+}
+
+.content_banner .banner_text h2 {
+    font-size: var(--large-banner-font);
+    font-weight: 700;
+    margin-bottom: 30px;
+    /* font-family: var(); */
+}
+
+.content_banner .banner_text{
+    margin-bottom: 40px;
+
+}
+
+.content_banner .banner_text p {
+    font-size: var(--medium-font);
+    margin-top: 40px;
+    color: #808080cd;
+}
+
+.content_banner .banner_text h2:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 120px;
+    height: 5px;
+    border-radius: 7px;
+    background: var(--main-color-one);
+    left: 50%;
+    translate: -50%;
+}
+
+
+.ticker__element{
+    display: flex;
+    gap: 25px;
+}
+
+.ticker__element img{
+    margin: 0 20px;
+    width: 190px;
+}

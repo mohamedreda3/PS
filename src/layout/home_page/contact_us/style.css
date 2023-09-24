@@ -1,0 +1,77 @@
+textarea {
+    width: 100%;
+}
+
+.form_t input, textarea {
+    border: 1px solid #cdd3d8;
+    box-shadow: none;
+    font-size: 18px;
+    line-height: normal;
+    outline: none;
+    padding: 14px 10px 8px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border-radius: 5px;
+}
+
+form .css-1pvcaf {
+    display: flex;
+    width: 100%;
+}
+
+.form_t {
+    width: 100%;
+    display: flex;
+    gap: 19px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+form {
+    width: calc(100% - 292px);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form button {
+    background: var(--main-color-one);
+    margin: 20px auto;
+}
+
+.contact_d svg {
+    color: var(--main-color-one);
+    font-size: 25px;
+}
+.contact_d{
+    margin: 0 0 30px;
+}
+
+.contact_d .footer_p {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contact_d .footer_p .info {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.contact_d .footer_p .info a {
+    text-decoration: none;
+}
+
+.contact_data {
+    width: 280px;
+}
+
+.contact_data h5{
+    margin: 0 0 20px;
+}
+
+.contact_us {
+    display: flex;
+    flex-wrap: wrap;
+}

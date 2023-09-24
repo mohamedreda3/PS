@@ -1,0 +1,47 @@
+#homeService {
+    width: 100%;
+    min-height: 55vh;
+    margin: 0;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0.1px 1px 24px -2px var(--shadow-color);
+    padding: 0;
+}
+
+.service_identify img {
+    width: 107px;
+}
+
+.service_identify p {
+    text-align: left;
+}
+
+.service_identify {
+    width: 100%;
+    display: flex;
+    gap: 11px;
+    background: white;
+    /* box-shadow: 0.1px 1px 24px 2px var(--shadow-color); */
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service_identify .identify {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    width: min(500px, 100%);
+}
+
+.service_identify button {
+    padding: 10px 38px;
+    background: var(--main-color-one);
+    font-size: 19px;
+}
+

@@ -1,0 +1,41 @@
+#about_service {
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: min(900px, 100%);
+}
+
+.about_sevice h2 {
+    width: 100%;
+    text-align: left;
+    margin-top: 18px;
+}
+
+#about_service p {
+    text-align: left;
+    font-size: 16px !important;
+    color: darkgray;
+    padding: 10px;
+}
+
+.service_features {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+}
+
+.service_features h2 {
+    width: fit-content;
+    text-align: left;
+    padding-right: 10px;
+    color: var(--main-color-one);
+    border-bottom: 1px solid;
+}
+
+.about_sevice{
+    margin: 10px 0;
+}

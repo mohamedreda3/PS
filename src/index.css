@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--font-family-two);
+  position: relative;
+  user-select: none;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+button.btn_change img {
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.app.rtl {
+  direction: rtl;
+}
+
+.laguageConverter {
+  position: fixed;
+  left: 3%;
+  font-size: 30px;
+  background: white;
+  bottom: 3%;
+  z-index: 99999999999999999999999999999999;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+body.ar {
+  text-align: right !important;
+  direction: ltr !important;
+}
+
+/* ---------------------------------------------- */
+body.ar .blog_post p {
+  text-align: right !important;
+}
+
+body.ar .blog_post span svg,
+body.ar span.sol_icon {
+  rotate: -180deg;
+}
+
+
+
+body.ar .blog_post .b_bot {
+  direction: rtl !important;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+body.ar .card_tech,
+body.ar .card_tech h2,
+body.ar .card_tech h5,
+body.ar .card_tech .descp {
+  text-align: right !important;
+}
+
+body.ar #headingOne:before,
+body.ar #solutions h1:before {
+  left: auto;
+  right: 0;
+}
+
+body.ar .solutions .solution_bx span.sol_icon {
+  margin-right: auto !important;
+  margin-left: 0;
+  rotate: 90deg;
+}
+
+body.ar .solution_bx:hover span svg {
+  rotate: 91deg !important;
+}
+
+
+body.ar .why_bx h5,
+body.ar .right_why h4 {
+  direction: rtl;
+}
+
+body.ar .service_bx ul li{
+text-align: right;
+}
+
+body.ar .service_bx ul li:before{
+  left: 0;
+  right: -17px;
+}
+
+body.ar .service_bx ul{
+  justify-content: flex-start;
+}
+
+body.ar .lets_talk:before{
+  left: auto;
+  right: 0;
+}
+
+body.ar .about_us.about_sevice p, body.ar .about_us.about_sevice h2, body.ar #about_service p{
+  text-align: right !important;
+}

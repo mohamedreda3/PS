@@ -22,7 +22,7 @@ function App() {
         className="laguageConverter"
         onClick={() => dispatch(updateLanguage(language == "ar" ? "en" : "ar"))}
       >
-        <Icon icon={languagesIcon} color="royalblue" />
+        <Icon icon={languagesIcon} color="white" />
       </div>
       <Routes>
         {routes.map((item, index) => {
